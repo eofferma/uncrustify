@@ -54,6 +54,7 @@ static const chunk_tag_t symbols3[] =
    { "<>=",      CT_COMPARE,      LANG_D                                                       },
    { "===",      CT_COMPARE,      LANG_D | LANG_ECMA                                           },
    { ">>=",      CT_ASSIGN,       LANG_ALL                                                     },
+   { "=>",       CT_ASSIGN,       LANG_JAVA                                                    },
    { ">>>",      CT_ARITH,        LANG_D | LANG_JAVA | LANG_PAWN | LANG_ECMA                   },
    { "%:@",      CT_POUND,        LANG_C | LANG_CPP | LANG_OC                                  },           // digraph  #@ MS extension
    { R"_(??=)_", CT_POUND,        LANG_C | LANG_CPP | LANG_OC | FLAG_DIG                       },           // trigraph #
