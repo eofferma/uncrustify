@@ -12,7 +12,11 @@ Running the tests
 
 - To run the only the tests associated with language X ("cpp", "java", etc.):
     $ cd tests
-    $ ./run_format_tests.py X
+    $ ./run_format_tests.py Xç
+    
+    Example:
+
+    $ ./run_format_tests.py -e <uncrustify bin path> "java"
 
 Adding new tests
 ----------------
